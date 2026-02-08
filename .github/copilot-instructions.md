@@ -1,0 +1,7 @@
+- 回答は常に提供されたワークスペースのコード、または公式ドキュメントに基づいたものに限定してください。
+- 根拠となるシンボル（関数名、クラス名）を必ず明記してください（例: [`electron.BrowserWindow`](../src/index.ts), [`electron.app`](../src/index.ts)）。
+- 主要言語は TypeScript、基盤は Electron + Forge + Webpack である前提で回答してください（根拠: [tsconfig.json](../tsconfig.json), [forge.config.ts](../forge.config.ts), [webpack.main.config.ts](../webpack.main.config.ts), [webpack.renderer.config.ts](../webpack.renderer.config.ts)）。
+- 変更提案は `src/` 配下の既存構成に沿ってください（根拠: [src/index.ts](../src/index.ts), [src/renderer.ts](../src/renderer.ts), [src/preload.ts](../src/preload.ts), [src/index.html](../src/index.html), [src/index.css](../src/index.css)）。
+- ESLint ルールに準拠した提案を優先してください（根拠: [.eslintrc.json](../.eslintrc.json)）。
+- 解決策が複数ある場合は、パフォーマンス・安全性など事実ベースでメリット/デメリットを簡潔に比較してください。
+- 不明点がある場合は、根拠不足として回答を控えてください。
